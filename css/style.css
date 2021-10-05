@@ -3,6 +3,20 @@ html,
 body,
 .view {
   height: 100%; }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1E90FF; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4682B4; 
+}
 
 @media (max-width: 740px) {
   .full-page-intro {
