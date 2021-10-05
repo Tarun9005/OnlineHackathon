@@ -3,6 +3,29 @@
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
+  function myVeg(){
+                 var a = document.getElementById("wings");
+                var b = document.getElementById("burger");
+                var c = document.getElementById("pizza");
+                var d = document.getElementById("noodles");
+                var e = document.getElementById("biryani");
+                var f = document.getElementById("rice");
+                var g = document.getElementById("pasta");
+                var h = document.getElementById("nuggets");
+
+
+                a.style.display = "none";
+    b.style.display = "block";
+    c.style.display = "block";
+    d.style.display = "block";
+    e.style.display = "none";
+    f.style.display = "block";
+    g.style.display = "block";
+    h.style.display = "none";
+
+
+
+              }
  (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('popper.js'), require('jquery')) :
   typeof define === 'function' && define.amd ? define(['exports', 'popper.js', 'jquery'], factory) :
